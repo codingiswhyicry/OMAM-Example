@@ -15,5 +15,13 @@ class chapterFour: UIViewController {
         
         view.backgroundColor = UIColor.white
         
+        textView.isEditable = false
+        textView.isSelectable = true
+        textView.isScrollEnabled = true
     }
+    
+    @IBOutlet weak var headerLabel: UILabel!
+    
+    @IBOutlet weak var textView: UITextView!
+    
 }

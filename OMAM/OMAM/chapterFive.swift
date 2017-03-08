@@ -16,4 +16,9 @@ class chapterFive: UIViewController {
         view.backgroundColor = UIColor.white
         
     }
+    
+    @IBOutlet weak var headerLabel: UILabel!
+    
+    @IBOutlet weak var textView: UITextView!
+    
 }

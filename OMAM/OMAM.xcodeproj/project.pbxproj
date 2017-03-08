@@ -23,7 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9CD40B111E70BF660071DF54 /* FrancoisOne.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FrancoisOne.ttf; path = "../../../../Downloads/francois-one/FrancoisOne.ttf"; sourceTree = "<group>"; };
+		9CD40B111E70BF660071DF54 /* FrancoisOne.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FrancoisOne.ttf; path = "../../../../../Downloads/francois-one/FrancoisOne.ttf"; sourceTree = "<group>"; };
 		9CEA06951E6D20340021D549 /* OMAM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OMAM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CEA06981E6D20340021D549 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CEA069D1E6D20340021D549 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -51,12 +51,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9CD40B131E70CB360071DF54 /* view controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9CEA06AA1E6D23590021D549 /* ViewController.swift */,
+				9CEA06AC1E6D240C0021D549 /* mainTitle.swift */,
+				9CEA06AE1E6D241B0021D549 /* chapterOne.swift */,
+				9CEA06B01E6D24250021D549 /* chapterTwo.swift */,
+				9CEA06B21E6D242E0021D549 /* chapterThree.swift */,
+				9CEA06B41E6D24360021D549 /* chapterFour.swift */,
+				9CEA06B61E6D24430021D549 /* chapterFive.swift */,
+				9CEA06B81E6D24520021D549 /* chapterSix.swift */,
+			);
+			name = "view controllers";
+			sourceTree = "<group>";
+		};
+		9CD40B141E70CB560071DF54 /* other */ = {
+			isa = PBXGroup;
+			children = (
+				9CEA069F1E6D20340021D549 /* Assets.xcassets */,
+				9CEA06A11E6D20340021D549 /* LaunchScreen.storyboard */,
+				9CEA06A41E6D20340021D549 /* Info.plist */,
+				9CD40B111E70BF660071DF54 /* FrancoisOne.ttf */,
+				9CEA06961E6D20340021D549 /* Products */,
+			);
+			name = other;
+			sourceTree = "<group>";
+		};
 		9CEA068C1E6D20340021D549 = {
 			isa = PBXGroup;
 			children = (
-				9CD40B111E70BF660071DF54 /* FrancoisOne.ttf */,
 				9CEA06971E6D20340021D549 /* OMAM */,
-				9CEA06961E6D20340021D549 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,24 +91,16 @@
 				9CEA06951E6D20340021D549 /* OMAM.app */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		9CEA06971E6D20340021D549 /* OMAM */ = {
 			isa = PBXGroup;
 			children = (
-				9CEA06981E6D20340021D549 /* AppDelegate.swift */,
-				9CEA06AA1E6D23590021D549 /* ViewController.swift */,
 				9CEA069C1E6D20340021D549 /* Main.storyboard */,
-				9CEA06AC1E6D240C0021D549 /* mainTitle.swift */,
-				9CEA06AE1E6D241B0021D549 /* chapterOne.swift */,
-				9CEA06B01E6D24250021D549 /* chapterTwo.swift */,
-				9CEA06B21E6D242E0021D549 /* chapterThree.swift */,
-				9CEA06B41E6D24360021D549 /* chapterFour.swift */,
-				9CEA06B61E6D24430021D549 /* chapterFive.swift */,
-				9CEA06B81E6D24520021D549 /* chapterSix.swift */,
-				9CEA069F1E6D20340021D549 /* Assets.xcassets */,
-				9CEA06A11E6D20340021D549 /* LaunchScreen.storyboard */,
-				9CEA06A41E6D20340021D549 /* Info.plist */,
+				9CEA06981E6D20340021D549 /* AppDelegate.swift */,
+				9CD40B131E70CB360071DF54 /* view controllers */,
+				9CD40B141E70CB560071DF54 /* other */,
 			);
 			path = OMAM;
 			sourceTree = "<group>";

@@ -36,14 +36,14 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="chapter two" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vXW-1A-qS4">
                                 <rect key="frame" x="16" y="20" width="343" height="49"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="FrancoisOne" family="Francois One" pointSize="40"/>
                                 <color key="textColor" red="0.80784313730000001" green="0.18039215689999999" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="wtH-ra-0ly">
                                 <rect key="frame" x="16" y="77" width="343" height="570"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <mutableString key="text">The following morning, George and Lennie reach the bunk house at the farm. Candy, the old man who shows them the bunk house, tells them that his boss was expecting them the night before and was angry when they weren't ready for work in the morning. 
 
@@ -72,6 +72,10 @@ Curley enters again and confronts George, asking if his wife has been around. Ge
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="headerLabel" destination="vXW-1A-qS4" id="zxF-dv-Vb2"/>
+                        <outlet property="textView" destination="wtH-ra-0ly" id="Ce2-gc-qI8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CZa-Vq-MVr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -90,23 +94,51 @@ Curley enters again and confronts George, asking if his wife has been around. Ge
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="chapter five" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I0B-tr-zpF">
-                                <rect key="frame" x="16" y="28" width="343" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="frame" x="16" y="20" width="343" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="FrancoisOne" family="Francois One" pointSize="40"/>
                                 <color key="textColor" red="0.80784313730000001" green="0.18039215689999999" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="vhc-hh-fHN">
-                                <rect key="frame" x="16" y="86" width="343" height="561"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="frame" x="16" y="78" width="343" height="561"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <mutableString key="text">The scene shifts to Sunday afternoon as Lennie sits in the barn, contemplating a dead puppy. He has killed his pup by petting it too hard. Lennie is gripped by a growing panic that George will find the dead puppy and that now he "won't get to tend the rabbits" (93).
+
+Curley's wife enters in a dress decorated with red ostrich feathers. Lennie, who has been warned to have nothing to do with her, briefly tries to resist being drawn into conversation, but she prevails, telling him that the other men are too busy with their horseshoe tournament to care whether he talks to her or not. She sees the dead puppy and consoles him, saying that no one will care about the loss of a mere mutt.
+
+She is clearly starved for conversation and launches into a reprise of her discontented story of what might have been. She insists that she could have been an actress.
+
+ Lennie fails to understand her at all, however, as he continues to return to the dilemma of the dead puppy and his anxiety over being denied the right to tend the rabbits. Curley's wife angrily asks him why he is so obsessed with rabbits, and Lennie thoughtfully replies that he likes to pet nice things.
+Curley's wife observes that Lennie is "[j]us' like a big baby" (99) and invites him to stroke her soft hair.
+
+ Lennie begins to feel her hair and likes it very much indeed, which leads him to pet it too hard. Curley's wife begins to struggle, which sends Lennie into a panic. He grabs a hold of her hair and muffles her screams. When she continues to struggle, Lennie grows angry. He shakes her violently, telling her to keep quiet so that George doesn't hear her.
+
+ Before he knows it, he has broken her neck. She lies dead on the hay. Lennie observes that he has "done a bad thing" (100) and covers her body with hay. He then disappears from the barn with the dead puppy in hand.
+Candy comes looking for Lennie in the barn and discovers the body of Curley's wife. He fetches George, who knows exactly what has happened when he sees the body. 
+
+Candy warns that Curley will lynch Lennie if they don't let him get away. After a sombre exchange in which Candy and George acknowledge that their dream of a farm can't amount to reality anymore, George decides the best course of action. 
+
+He tells Candy to spread the news of the death to the rest of the men and to pretend that he (George) was never present in the barn. When George leaves, Candy scolds the corpse for being a "God damn tramp" (104).
+
+Candy fetches the men and Curley immediately connects the killing to Lennie. He and Carlson run off to fetch guns. Meanwhile, George and Slim hypothesize that Lennie must have accidentally killed her, in the same way he got in trouble in Weed. 
+
+George asks Slim whether Lennie might just be locked up and Slim replies that Curley will want to shoot him. Carlson returns and announces that his Luger has been stolen. He blames Lennie for the theft.
+
+Curley returns with a shotgun. He tells Whit to fetch the Soledad deputy sherrif, Al Whits, and organizes a posse from the rest of the men. George asks Curley not to shoot Lennie, but Curley refuses to listen, saying that Lennie is armed with the Luger. 
+
+George deliberately misleads the posse, saying that Lennie would have headed south (rather than north, the direction from which they approached the farm). Curley warns George to join the hunt for Lennie "so we don't think you had nothin' to do with this" (108).</mutableString>
                                 <fontDescription key="fontDescription" name="FrancoisOne" family="Francois One" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="headerLabel" destination="I0B-tr-zpF" id="92R-6f-j55"/>
+                        <outlet property="textView" destination="vhc-hh-fHN" id="g6q-iR-7pK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KXT-fd-abc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -126,14 +158,14 @@ Curley enters again and confronts George, asking if his wife has been around. Ge
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="chapter one" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YZa-Lb-do6">
                                 <rect key="frame" x="16" y="20" width="343" height="49"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="FrancoisOne" family="Francois One" pointSize="40"/>
                                 <color key="textColor" red="0.80784313725490198" green="0.1803921568627451" blue="0.1764705882352941" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="6nl-zI-XTj">
                                 <rect key="frame" x="16" y="77" width="343" height="570"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <mutableString key="text">George and Lennie, two migrant workers during the Great Depression, walk along a trail on the Salinas River just south of Soledad, California. They are on their way to a new ranch, where they hope to be hired to “buck barley,” that is, to haul sacks full of grain. A bus driver recently let them out and told them the ranch was nearby. However, the walk is much longer than they anticipated.
 
@@ -158,6 +190,10 @@ As they prepare to sleep, George reminds Lennie not to say a word during their i
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="headerLabel" destination="YZa-Lb-do6" id="GZR-8V-zfu"/>
+                        <outlet property="textView" destination="6nl-zI-XTj" id="HWp-Ti-64O"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5zb-zc-Ohz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -195,14 +231,14 @@ As they prepare to sleep, George reminds Lennie not to say a word during their i
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="chapter three" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="URI-5h-DZX">
                                 <rect key="frame" x="16" y="28" width="343" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="FrancoisOne" family="Francois One" pointSize="40"/>
                                 <color key="textColor" red="0.80784313730000001" green="0.18039215689999999" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="zkp-uJ-Bcv">
                                 <rect key="frame" x="16" y="86" width="343" height="561"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <mutableString key="text">After working hours, as the other men play horseshoes outside, Slim and George return to the bunk house. We learn that Slim has allowed Lennie to have one of his puppies. Slim praises Lennie for his incredible work ethic, which leads George to talk about his past with Lennie. 
 
@@ -239,6 +275,10 @@ George tells Lennie to let go, but Lennie only grips harder out of fear. Curley 
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="headerLabel" destination="URI-5h-DZX" id="SOU-zw-rh7"/>
+                        <outlet property="textView" destination="zkp-uJ-Bcv" id="e9K-kp-i1D"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lpt-eC-Ctm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -258,14 +298,14 @@ George tells Lennie to let go, but Lennie only grips harder out of fear. Curley 
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="chapter four" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BWz-kg-Rxh">
                                 <rect key="frame" x="16" y="20" width="343" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="FrancoisOne" family="Francois One" pointSize="40"/>
                                 <color key="textColor" red="0.80784313730000001" green="0.18039215689999999" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Sao-oF-Fvi">
                                 <rect key="frame" x="16" y="78" width="343" height="569"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <mutableString key="text">The next night, all of the men are off at the whorehouse spending their weeks' pay except for Crooks, Candy and Lennie.
 
@@ -297,6 +337,10 @@ Soon George arrives looking for Lennie; he admonishes Candy for talking about th
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="headerLabel" destination="BWz-kg-Rxh" id="t6e-c8-D0b"/>
+                        <outlet property="textView" destination="Sao-oF-Fvi" id="dDg-xB-cJo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ncQ-6P-5Hn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -316,15 +360,33 @@ Soon George arrives looking for Lennie; he admonishes Candy for talking about th
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="jJ3-KR-PcQ">
                                 <rect key="frame" x="16" y="86" width="343" height="561"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <mutableString key="text">The final chapter opens as Lennie waits in the bushes near the Salinas River, just as George told him to do in Chapter One.
+
+ He nervously talks to himself, airing his worry that George won't let him tend the rabbits because of the bad things he did back at the ranch.
+
+Lennie then imagines the figure of his Aunt Clara - a plump, aproned woman with thick glasses - who scolds him for getting George into so much trouble. Lennie cries, begging Aunt Clara for forgiveness, and says that he will go off in the hills, where he can't bother George.
+
+ Lennie then imagines a gigantic rabbit that mocks him for ever believing that he could tend the rabbits. The imaginary rabbit says that George will beat him with a stick when he arrives.
+
+As Lennie sobs, George emerges from the brush. Lennie admits that he did a bad thing, but George appears not to care. Still upset, Lennie goads George into participating in their ritual routine of chastisement and forgiveness - he feeds George his lines about how much fun he would have if he didn't have to look after Lennie, and Lennie offers to go live in the hills and leave George alone. 
+
+Lennie then requests the coup-de-grace: the story of how they're different from other workers and of how they'll have a farm together. George repeats these monologues woodenly.
+
+He then tells Lennie to take off his hat as he continues to recount "how it will be" for them. He orders Lennie to kneel and pulls out Carlson's Luger. As the voices of the other men in the search party near their location, George tells Lennie one more time "about the rabbits," tells Lennie that they're going to get the farm right away, and shoots his companion in the back of the head.
+
+Slim, Curley and Carlson arrive immediately after the shot is fired. Slim immediately interprets the scene accurately.
+
+ Carlson and Curley, however, assume that George wrestled the Luger away from Lennie before shooting him. George, speaking in a whisper, affirms their false version of the events. 
+
+The novel closes as Slim reassures George that he "had to do it," while Carlson and Curley look on in confusion, wondering why they are so upset.</mutableString>
                                 <fontDescription key="fontDescription" name="FrancoisOne" family="Francois One" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="chapter six" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MED-4l-EoK">
                                 <rect key="frame" x="16" y="20" width="343" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="FrancoisOne" family="Francois One" pointSize="40"/>
                                 <color key="textColor" red="0.80784313730000001" green="0.18039215689999999" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -332,6 +394,10 @@ Soon George arrives looking for Lennie; he admonishes Candy for talking about th
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="headerLabel" destination="MED-4l-EoK" id="VGZ-CC-hGu"/>
+                        <outlet property="textView" destination="jJ3-KR-PcQ" id="lew-OZ-Xa0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gQR-98-sFw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
