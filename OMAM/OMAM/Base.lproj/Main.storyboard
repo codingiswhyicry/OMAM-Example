@@ -8,6 +8,11 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="FrancoisOne.ttf">
+            <string>FrancoisOne</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="aOH-RL-cVu">
@@ -29,20 +34,48 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vXW-1A-qS4">
-                                <rect key="frame" x="166" y="28" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="chapter two" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vXW-1A-qS4">
+                                <rect key="frame" x="16" y="20" width="343" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="FrancoisOne" family="Francois One" pointSize="40"/>
+                                <color key="textColor" red="0.80784313730000001" green="0.18039215689999999" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="wtH-ra-0ly">
+                                <rect key="frame" x="16" y="77" width="343" height="570"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">The following morning, George and Lennie reach the bunk house at the farm. Candy, the old man who shows them the bunk house, tells them that his boss was expecting them the night before and was angry when they weren't ready for work in the morning. 
+
+Near his bed George finds a can of insect poison, which leads him to think that his bunk is infected, but the old man reassures him, telling him that person who had the bed before was a meticulous blacksmith named Whitey who kept the insect killer around even though there were no insects to kill.
+
+As George prepares to meet the boss, Candy reports that he is a nice enough man although he takes his anger out on the black stable buck, Crooks. Soon enough, the boss enters and asks George and Lennie for their work slips. George attempts to speak for both Lennie and himself, but the boss notices Lennie's silence and questions him directly. 
+
+Lennie attempts to speak for himself, aping phrases that George has spoken, but sounds completely ridiculous. George tells the boss that Lennie isn't bright, but that he's as strong as a bull and an incredibly hard worker.
+
+The boss wonders why George is willing to take care of Lennie; George tells the boss that Lennie is his cousin and that he promised his mother to look after him. When the boss wonders why they left their last job, George tells him that they were digging a cesspool and completed the work. When the boss leaves, George scolds Lennie for failing to keep completely silent. George admits that he lied about Lennie being his cousin.
+
+Candy returns with his old sheepdog, and George snaps at him for eavesdropping. Curley, a haughty young man, enters the bunk looking for the boss, who is his father. He behaves threateningly to Lennie. When he leaves, Candy explains that Curley, who is short, hates big guys like Lennie out of jealousy. George says that however tough Curley may be, he will be sorry if he picks a fight with Lennie, who is incredibly strong. 
+
+Candy notes that Curley was recently married to a local beauty and that he has become more cocky ever since. Curley wears a left glove full of Vaseline to keep the hand soft for his wife, whom the old man thinks is a tart. George warns Lennie to avoid Curley.
+
+On cue, Curley's wife comes to the bunk house looking for her husband. She is provocatively dressed and quite flirtatious. When she leaves, George remarks that she's a tramp, while Lennie says that she's pretty. George warns him to keep away from her.
+
+Next to enter is Slim, the widely respected jerkline skinner. Slim questions George and Lennie about what work they can do. Carlson, a large, big-stomached man, also enters the bunk house and asks Slim whether his dog had her litter last night. Slim tells him that she had nine puppies, but that he drowned four immediately since she couldn't feed so many. 
+
+Carlson complains about the smell of Candy's old sheepdog and tells Slim that Candy should put it out of its misery.
+
+Curley enters again and confronts George, asking if his wife has been around. George admits that she was at the bunk house. Curley seems eager to start a fight with anyone.</mutableString>
+                                <fontDescription key="fontDescription" name="FrancoisOne" family="Francois One" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
-                        <color key="backgroundColor" red="0.45054928239999997" green="0.34027116769999999" blue="0.47059208650000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CZa-Vq-MVr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-247" y="633"/>
+            <point key="canvasLocation" x="-247.19999999999999" y="632.83358320839591"/>
         </scene>
         <!--Chapter Five-->
         <scene sceneID="ZlG-B9-ivb">
@@ -56,20 +89,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I0B-tr-zpF">
-                                <rect key="frame" x="166" y="20" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="chapter five" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I0B-tr-zpF">
+                                <rect key="frame" x="16" y="28" width="343" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="FrancoisOne" family="Francois One" pointSize="40"/>
+                                <color key="textColor" red="0.80784313730000001" green="0.18039215689999999" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="vhc-hh-fHN">
+                                <rect key="frame" x="16" y="86" width="343" height="561"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" name="FrancoisOne" family="Francois One" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
-                        <color key="backgroundColor" red="0.25882352939999997" green="0.34509803919999998" blue="0.36078431370000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KXT-fd-abc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1775" y="633"/>
+            <point key="canvasLocation" x="1773.5999999999999" y="632.83358320839591"/>
         </scene>
         <!--Chapter One-->
         <scene sceneID="XiQ-rr-xhy">
@@ -83,15 +124,39 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CHAPTER ONE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OH3-g5-QfQ">
-                                <rect key="frame" x="16" y="28" width="343" height="36"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="chapter one" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YZa-Lb-do6">
+                                <rect key="frame" x="16" y="20" width="343" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="FrancoisOne" family="Francois One" pointSize="40"/>
+                                <color key="textColor" red="0.80784313725490198" green="0.1803921568627451" blue="0.1764705882352941" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="6nl-zI-XTj">
+                                <rect key="frame" x="16" y="77" width="343" height="570"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">George and Lennie, two migrant workers during the Great Depression, walk along a trail on the Salinas River just south of Soledad, California. They are on their way to a new ranch, where they hope to be hired to “buck barley,” that is, to haul sacks full of grain. A bus driver recently let them out and told them the ranch was nearby. However, the walk is much longer than they anticipated.
+
+George is a small, quick man with dark, suspicious eyes. Lennie is just the opposite: a naive, unintelligent mountain of a man. As they walk along, Lennie comes upon a pool of water and drinks thirstily; George warns him that the water might be bad as it has been stagnant in the sun, but Lennie pays him no heed. After Lennie drinks his fill, George quizzes him on the upcoming job. Lennie, however, fails to remember even the slightest detail of their current prospect. 
+
+George reminds him that they have received work cards from Murray and Ready’s. As George pats his pocket, where the work cards are kept, he notices that Lennie has something in his pocket as well: a dead mouse. Lennie explains that he likes to pet the mouse’s soft fur as he walks. George takes the mouse from Lennie and throws it into the bushes. 
+
+He then admonishes Lennie for his behavior, warning him not to behave badly, as he has done so often in the past, and ordering him not to say a word when they meet the boss at the new ranch. He reminds Lennie of past misadventures, specifically an episode in the town of Weed in which Lennie assaulted a woman in a red dress because he thought her dress was pretty and wanted to feel it. The woman accused Lennie of attempting to rape her and George and Lennie had to run for their lives out of town. While recounting this incident, George complains that if he didn’t have to take care of Lennie he could live a normal life: “I could live so easy and maybe have a girl”.
+
+George tells Lennie that they are going to bivouac a couple of miles away from the ranch so that they won’t have to work the morning shift the next day. They set up camp and George sends Lennie off to look for firewood so that they can heat up some beans. 
+
+Lennie goes off into the darkness and returns in a moment; George instantly knows from Lennie’s wet feet that he has retrieved the dead mouse. He takes it from Lennie, who begins to whimper. George assures Lennie that he’ll let him pet a “fresh” mouse, just not a rotten one. They recall that Lennie’s Aunt Clara, whom Lennie refers to as “a lady,” used to give Lennie mice to play with.
+
+Lennie fetches some wood and George heats up their beans. Lennie complains that they don’t have ketchup, which sets George off on a rant about having to care for Lennie. After this outburst, George feels ashamed. Lennie apologizes and George admits that he’s “been mean” (14). Lennie passive-aggressively offers to go away and live in a cave so that George can have fun. George resolves this short argument by agreeing to Lennie’s request to “tell about the rabbits,” which is Lennie’s shorthand for “talk about how things will be for us in the future.”
+
+ George paints a picture of the future – a picture he has obviously painted countless times before – in which he and Lennie have their own place on their own farm and “live off the fat of the land.” He promises Lennie that they will have rabbit cages and that Lennie will be allowed to tend them. Lennie repeatedly interrupts George as he tells this story, but insists that George finish it to the end.
+
+As they prepare to sleep, George reminds Lennie not to say a word during their interview with the boss the following day. He also tells Lennie that if he runs into trouble, as he has so many times before, he is to return to the place where they've camped, hide in the brush and wait for George.</mutableString>
+                                <fontDescription key="fontDescription" name="FrancoisOne" family="Francois One" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
-                        <color key="backgroundColor" red="0.35740629159999998" green="0.59159958960000003" blue="0.29216761549999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5zb-zc-Ohz" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -128,20 +193,56 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="URI-5h-DZX">
-                                <rect key="frame" x="166" y="28" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="chapter three" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="URI-5h-DZX">
+                                <rect key="frame" x="16" y="28" width="343" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="FrancoisOne" family="Francois One" pointSize="40"/>
+                                <color key="textColor" red="0.80784313730000001" green="0.18039215689999999" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="zkp-uJ-Bcv">
+                                <rect key="frame" x="16" y="86" width="343" height="561"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">After working hours, as the other men play horseshoes outside, Slim and George return to the bunk house. We learn that Slim has allowed Lennie to have one of his puppies. Slim praises Lennie for his incredible work ethic, which leads George to talk about his past with Lennie. 
+
+The two grew up as neighbors and George took Lennie as a travel and work companion when Lennie's Aunt Clara died. George says that when he first began traveling with Lennie he found it funny to play pranks on him. One day he ordered Lennie to jump in a river even though he couldn't swim and Lennie unthinkingly obeyed.
+
+ After George fished him out, Lennie was completely grateful, having forgotten that George had ordered him into the river in the first place. After this episode, George decided against having fun at Lennie's expense.
+
+At Slim's insistence, George tells about the episode in Weed that led them to seek work elsewhere. Lennie saw a woman in a red dress and, overcome by an urge to feel the pretty fabric, he stupidly grabbed the woman. The woman fled and told the men of Weed that Lennie had raped her. George and Lennie were forced to hide from a lynch mob and sneak out of Weed under cover of night.
+
+Lennie appears with his new puppy and George tells him to take the puppy back to its mother for its own safety. After Lennie leaves, the men come in from their horseshoe game, which Crooks has apparently won.
+
+ Carlson begins complaining again about the smell of Candy's old dog. He goads Candy to shoot the dog, which Candy refuses to do. Carlson then offers to shoot the dog himself. After Slim speaks up in favor of shooting the dog, Candy reluctantly allows Carlson to take the dog outside with his Luger and a shovel. Candy sinks into a deep melancholy and the men try to lighten the atmosphere with talk of cards and magazine articles. Just as they begin a game of euchre, a shot rings out in the night.
+
+Crooks enters and talks with Slim about fixing a mule's hoof. He also mentions that Lennie is playing with the pups in the barn. Slim leaves for the barn as George and Whit begin a conversation about women. Whit mentions that the men usually go to a whorehouse or two on the weekend and they welcome George to come along. 
+
+Whit also laughs about Curley's trouble keeping tabs on his wife, who appears eager to spend time with every man on the ranch aside from her husband. On cue, Curley bursts in to the bunkhouse and demands to know the whereabouts of his wife and Slim.
+
+After he learns that Slim is in the barn he leaves. Lennie, at the same time, returns from the barn, having been told to stop playing with the pups for the night.
+
+As they wind down for the evening, Lennie asks George to tell him "about the rabbits," and George launches into his monologue about their proposed self-sustaining farm - complete with rabbits, pigs, cats and a vegetable garden. Candy, who has been listening in, asks how much such a place would cost. George, though put off at first by Candy's nosiness, eventually lets on that he has a lead on a plot of land that could be bought for six hundred dollars.
+
+ Candy reveals that he has a secret stash of money - three-hundred and fifty dollars - and offers to give it all to George and Lennie if they'll let him live on their farm and work as a housekeeper. After a quick calculation George figures that they could make a down payment on the property after only a month's work. The three men sit, enraptured and astounded that their dream of a self-sufficient farm life might actually become a reality.
+
+Curley returns with Whit, Carlson and Slim. Curley has accused Slim of eying his wife, a charge which Slim and the others laugh off. Lennie, who is still dreaming about the rabbits, also smiles, which leads Curley to confront him aggressively. 
+
+Curley punches Lennie in the face. Lennie does not immediately fight back, instead crying and calling to George for help. When Curley doesn't back off, George tells Lennie to "get 'em." Lennie catches Curley's next punch in his massive paw and crushes down on his hand. 
+
+George tells Lennie to let go, but Lennie only grips harder out of fear. Curley flops like a fish. By the time Lennie finally relaxes his grip, Curley's hand has been ruined. Before Curley goes to the hospital, he agrees to pretend that he has caught his hand in a machine.
+
+ Lennie is afraid that he has done something bad, but George reassures him that he hasn't as the chapter closes.</mutableString>
+                                <fontDescription key="fontDescription" name="FrancoisOne" family="Francois One" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
-                        <color key="backgroundColor" red="0.56862745100000001" green="0.6588235294" blue="0.81568627449999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lpt-eC-Ctm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="425" y="633"/>
+            <point key="canvasLocation" x="424.80000000000001" y="632.83358320839591"/>
         </scene>
         <!--Chapter Four-->
         <scene sceneID="7Wv-h8-r3j">
@@ -155,20 +256,51 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BWz-kg-Rxh">
-                                <rect key="frame" x="166" y="28" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="chapter four" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BWz-kg-Rxh">
+                                <rect key="frame" x="16" y="20" width="343" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="FrancoisOne" family="Francois One" pointSize="40"/>
+                                <color key="textColor" red="0.80784313730000001" green="0.18039215689999999" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Sao-oF-Fvi">
+                                <rect key="frame" x="16" y="78" width="343" height="569"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">The next night, all of the men are off at the whorehouse spending their weeks' pay except for Crooks, Candy and Lennie.
+
+While Crooks is belittled and ordered around in the ranch at large, in his bunk he is alone; none of the other workers impede upon his living space.
+
+Lennie, however, doesn't understand the unwritten code of racial segregation. He appears in Crooks' doorway while checking on his pup in the barn. Crooks tells Lennie to go away, but the simple big man cannot understand that he isn't wanted.
+
+Crooks at last relents and allows Lennie to sit with him and talk. Lennie tells Crooks "about the rabbits" and Crooks vents about his mistreatment as an African-American.
+
+ Their conversation takes an unsettling turn as Crooks teases Lennie about his lack of self-reliance; he tauntingly asks Lennie what he would do if George were injured. Unable to think hypothetically, Lennie thinks that George is actually under threat. 
+
+With some difficulty, Crooks calms Lennie down and takes on a kindlier demeanor. His sour attitude remains, however, as he tells Lennie that his dreams of owning a farm with rabbits is unlikely to amount to anything tangible.
+
+Candy comes by looking for Lennie and Crooks is secretly pleased that after so many years of solitude he is finally part of a sort of social gathering. They continue to discuss their plan to buy a farm and Crooks begins to warm to the scheme, even offering his own money and services if they'll take him on as well.
+
+Just as they reach the height of enthusiasm for the plan, Curley's wife enters, ostensibly looking for Curley. She insults the men, noting their feebleness. This offends the two mentally sound farmhands but Lennie finds her fascinating. 
+
+She voices her frustration at having no one to talk to and launches into a speech about how she could have been a movie star if she hadn't met Curley. She clearly dislikes Curley and tells the men that she knows he was beaten in a fight - that his injured hand did not result from a machine accident. Lennie eagerly tells her "about the rabbits" and she dismisses their plan as a pipe-dream.
+
+ As he talks, though, she notices the bruises on his face and deduces his role in Curley's injury. She flirtatiously congratulates Lennie on bringing Curley down a notch and Lennie grows increasingly enamored with her beauty.
+
+Crooks sharply tells her to leave and Curley's wife turns on him viciously, reminding him that at any time she could accuse him of raping her, which would lead to his death. Crooks and Candy silently tolerate her superiority until Candy hears the sound of the men returning, which leads Curley's wife to slip away back to her house. 
+
+Soon George arrives looking for Lennie; he admonishes Candy for talking about the plan to buy the farm. Crooks assures them, however, that he doesn't really want to be a part of their plan after all.</mutableString>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="FrancoisOne" family="Francois One" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
-                        <color key="backgroundColor" red="0.41568627450000001" green="0.56470588239999997" blue="0.62352941179999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ncQ-6P-5Hn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1095" y="633"/>
+            <point key="canvasLocation" x="1093.5999999999999" y="632.83358320839591"/>
         </scene>
         <!--Chapter Six-->
         <scene sceneID="b5v-ek-BJ7">
@@ -182,20 +314,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MED-4l-EoK">
-                                <rect key="frame" x="166" y="28" width="42" height="21"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="jJ3-KR-PcQ">
+                                <rect key="frame" x="16" y="86" width="343" height="561"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" name="FrancoisOne" family="Francois One" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="chapter six" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MED-4l-EoK">
+                                <rect key="frame" x="16" y="20" width="343" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="FrancoisOne" family="Francois One" pointSize="40"/>
+                                <color key="textColor" red="0.80784313730000001" green="0.18039215689999999" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.2666666667" green="0.1333333333" blue="0.16078431369999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gQR-98-sFw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2506" y="633"/>
+            <point key="canvasLocation" x="2504.8000000000002" y="632.83358320839591"/>
         </scene>
     </scenes>
 </document>

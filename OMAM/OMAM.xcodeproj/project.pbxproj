@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9CD40B121E70BF660071DF54 /* FrancoisOne.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9CD40B111E70BF660071DF54 /* FrancoisOne.ttf */; };
 		9CEA06991E6D20340021D549 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CEA06981E6D20340021D549 /* AppDelegate.swift */; };
 		9CEA069E1E6D20340021D549 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CEA069C1E6D20340021D549 /* Main.storyboard */; };
 		9CEA06A01E6D20340021D549 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CEA069F1E6D20340021D549 /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9CD40B111E70BF660071DF54 /* FrancoisOne.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FrancoisOne.ttf; path = "../../../../Downloads/francois-one/FrancoisOne.ttf"; sourceTree = "<group>"; };
 		9CEA06951E6D20340021D549 /* OMAM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OMAM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CEA06981E6D20340021D549 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CEA069D1E6D20340021D549 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -52,6 +54,7 @@
 		9CEA068C1E6D20340021D549 = {
 			isa = PBXGroup;
 			children = (
+				9CD40B111E70BF660071DF54 /* FrancoisOne.ttf */,
 				9CEA06971E6D20340021D549 /* OMAM */,
 				9CEA06961E6D20340021D549 /* Products */,
 			);
@@ -147,6 +150,7 @@
 			files = (
 				9CEA06A31E6D20340021D549 /* LaunchScreen.storyboard in Resources */,
 				9CEA06A01E6D20340021D549 /* Assets.xcassets in Resources */,
+				9CD40B121E70BF660071DF54 /* FrancoisOne.ttf in Resources */,
 				9CEA069E1E6D20340021D549 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -328,6 +332,7 @@
 				9CEA06A91E6D20340021D549 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
